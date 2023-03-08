@@ -556,3 +556,105 @@ body {
 .group-6 .all-cards .card .card-text .no-active {
   color: #c4c4c4;
 }
+
+/* group-8 styles */
+.group-8 {
+  width: 100%;
+}
+.group-8 .all-tarjets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.group-8 .all-tarjets .tarjet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+  height: 660px;
+  background: linear-gradient(160.69deg, #23252b -0.44%, #17191d 99.01%);
+  box-shadow: 4px -4px 10px rgba(80, 80, 80, 0.3);
+  border-radius: 10px;
+}
+
+.group-8 .all-tarjets .tarjet .card {
+  width: 370px;
+  height: 100px;
+  background: #23252a;
+  box-shadow: 4px -4px 12px rgba(50, 50, 50, 0.71);
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+.group-8 .all-tarjets .tarjet .active {
+  background: #17191d;
+}
+.group-8 .all-tarjets .tarjet .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group-8 .all-tarjets .tarjet .card .card-image {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+.group-8 .all-tarjets .tarjet .card .card-text {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 0;
+  height: 100%;
+}
+.group-8 .all-tarjets .tarjet .card .card-text .left {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.group-8 .all-tarjets .tarjet .card .card-text .left span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  color: #f2f2f2;
+}
+.group-8 .all-tarjets .tarjet .card .card-text .left .active {
+  color: #ff014f;
+}
+
+.group-8 .all-tarjets .tarjet .card .card-text .left .number {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.group-8 .all-tarjets .tarjet .card .card-text .left .number span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  color: #c4c4c4;
+}
+
+.group-8 .all-tarjets .tarjet .card .card-text .right span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 136% */
+
+  color: #adfe00;
+}
+.group-8 .all-tarjets .tarjet .card .card-text .right .green {
+  color: #adfe00;
+}
+.group-8 .all-tarjets .tarjet .card .card-text .right .red {
+  color: #ff014f;
+}
+.group-8 .all-tarjets .tarjet .card .card-text .right .coral {
+  color: #f27a6b;
+}
